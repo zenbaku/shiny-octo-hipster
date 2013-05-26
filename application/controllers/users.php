@@ -82,7 +82,7 @@ class Users extends CI_Controller {
 
       $data['user_type_id'] = $this->input->post('user_type_id');
       $data['username'] = $this->input->post('username');
-      $data['password'] = $this->input->post('password');
+      $data['password'] = MD5($this->input->post('password'));
       $data['email'] = $this->input->post('email');
       $data['firstname'] = $this->input->post('firstname');
       $data['lastname'] = $this->input->post('lastname');
