@@ -112,6 +112,7 @@ class Users_model extends CI_Model {
    * @param $data
    */
   public function add($data) {
+    $data['password'] = MD5($data['password']);
     if (isset($data['id'])) {
       $this->db->where('id', $data['id']);
       $this->db->update('users',$data); // update the record
