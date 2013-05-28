@@ -58,6 +58,32 @@
               conforman. Además esta página debe contener un formulario de inicio de sesión,
               donde se pida nombre de usuario y contraseña.
             </p>
+            <div id="qsomos" style="margin:0 auto; display:table;">
+              <h2 style="text-align:center;">Quienes Somos</h2>
+              <ul class="thumbnails">
+                <li class="span3">
+                  <div class="thumbnail">
+                    <img src="../../img/alfredi.jpg" alt="">
+                    <h3>Alfredo Emiliano Vega</h3>
+                    <p>Estudiante Ing. Civil Industrial</p>
+                  </div>
+                </li>
+                <li class="span3">
+                  <div class="thumbnail">
+                    <img src="../../img/manolo.jpg" alt="">
+                    <h3>Jos&eacute; Manuel Aguilera</h3>
+                    <p>Estudiante Ing. en ciencias de la computaci&oacute;n</p>
+                  </div>
+                </li>
+                <li class="span3">
+                  <div class="thumbnail">
+                    <img src="../../img/poni.jpg" alt="">
+                    <h3>Jonathan Urz&uacute;a</h3>
+                    <p>Estudiante Ing. en ciencias de la computaci&oacute;n</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
       </div>
     </div>
     <div class="container">
