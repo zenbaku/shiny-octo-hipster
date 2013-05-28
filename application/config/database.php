@@ -1,3 +1,9 @@
+<?php
+  $services_json = json_decode(getenv("VCAP_SERVICES"),true);
+  $mysql_config = $services_json["mysql-5.1"][0]["credentials"];
+?>
+
+
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 /*
 | -------------------------------------------------------------------
@@ -50,7 +56,7 @@ $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
 $db['default']['username'] = 'root';
-$db['default']['password'] = 'mjnkk4321';
+$db['default']['password'] = 'dolphin5';
 $db['default']['database'] = 'tarea4_tics';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
@@ -63,6 +69,15 @@ $db['default']['dbcollat'] = 'utf8_general_ci';
 $db['default']['swap_pre'] = '';
 $db['default']['autoinit'] = TRUE;
 $db['default']['stricton'] = FALSE;
+
+// Reconfig for AppFog
+if ($services_json) {
+  $db['default']['hostname'] = $mysql_config['hostname'];
+  $db['default']['username'] = $mysql_config['user'];
+  $db['default']['password'] = $mysql_config['password'];
+  $db['default']['database'] = $mysql_config['name'];
+  $db['default']['port']     = $mysql_config['port'];
+}
 
 
 /* End of file database.php */
