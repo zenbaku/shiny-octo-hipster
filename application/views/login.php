@@ -52,11 +52,28 @@
   <body>
     <div class="container">
       <div class="hero-unit">
-            <h1>Tarea 4</h1>
+            <h1>Chan!</h1>
             <p>
-              Una página inicial que contenga de que se trata su emprendimiento y quienes lo
-              conforman. Además esta página debe contener un formulario de inicio de sesión,
-              donde se pida nombre de usuario y contraseña.
+              Chan! es una tienda on-line de ropa, que nace para brinder la oportunidad a diseñadores
+              de vestuario emergentes de exhibir y vender sus colecciones en nuestra tienda virtual a cambio
+              de un porcentaje de la compra.
+            </p>
+            <p>
+              <ol>
+                <li>
+                  El cliente puede explotar los cat&aacute;logos de los diseñadores y elegir productos para su compra.
+                </li>
+                <li>
+                  Luego de que el cliente ha concluido la transacci&oacute;n, le avisamos al diseñador que se ha realizado
+                  una compra para que prepare el producto.
+                </li>
+                <li>
+                  Retiramos el producto de su lugar de fabricaci&oacute;n con la ayuda de un despachador que provee Chan!
+                </li>
+                <li>
+                  Despachamos el producto al domicilio indicado por el cliente.
+                </li>
+              </ol>
             </p>
             <div id="qsomos" style="margin:0 auto; display:table;">
               <h2 style="text-align:center;">Quienes Somos</h2>

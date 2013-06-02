@@ -18,7 +18,7 @@ class Products_model extends CI_Model {
   public function get($id = null) {
     $this->db->select('
       products.id, products.name, products.description, products.price, products.stock,
-      products.published_by,products.published_at,
+      products.published_by,products.published_at, products.img_src,
 
       users.username AS provider_name
     ');
