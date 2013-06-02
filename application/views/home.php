@@ -9,11 +9,11 @@
 
 	<h3>Our Products!</h3>
 
-	<div class="row-fluid">
+	<div style="margin-left:20px;" class="row-fluid">
 	  <?php foreach ($products as $product): ?>
-	    <div class="span4">
+	    <div style="margin-left:0px;" class="span4">
 	      <h4><?php echo $product['name'];?></h4>
-	      <img class="img-polaroid" src="../img/<?php echo $product['img_src'];?>">
+	      <img width="90%" height="90%" class="img-polaroid" src="../img/<?php echo $product['img_src'];?>">
 	      <p><?php echo $product['description'];?></p>
 	      <span class="badge badge-info">$<?php echo $product['price']; ?></span>
 	      <p>

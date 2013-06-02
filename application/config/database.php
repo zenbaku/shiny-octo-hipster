@@ -56,7 +56,7 @@ $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
 $db['default']['username'] = 'root';
-$db['default']['password'] = 'dolphin5';
+$db['default']['password'] = 'mjnkk4321';
 $db['default']['database'] = 'tarea4_tics';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
