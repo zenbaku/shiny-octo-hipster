@@ -9,6 +9,7 @@
 			<th>Published By</th>
 			<th>Published At</th>
 			<th>Provider Name</th>
+			<th>Product Image</th>
 		<tr>
 	<thead>
 	<tbody></tbody>
@@ -20,5 +21,6 @@
 			<td><?php echo $view_data['published_by']; ?></td>
 			<td><?php echo $view_data['published_at']; ?></td>
 			<td><?php echo $view_data['provider_name']; ?></td>
+			<td><img width="50%" height="50%" src="../../../img/<?php echo $view_data['img_src'];?>"></td>
 		</tr>
 </table>
