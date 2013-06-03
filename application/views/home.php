@@ -31,10 +31,16 @@
 
 	<h3>Para agregar un producto a nuestro cat&aacute;logo, debe seguir los siguientes pasos:</h3>
 	<ol>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
+		<li>Entra a Contacto y llena el formulario para Proovedores. Esto nos permitir&aacute; activar
+			tu cuenta para que puedas ingresar productos a nuestro sitio, además de obtener y verificar
+			tu informaci&oacute;n.</li>
+		<li>Se te envirar&aacute; un correo de verificaci&oacute;n. Debes seguir los pasos indicados
+			en &eacute;l para que podamos activar los servicios de tu cuenta.</li>
+		<li>En el momento que un cliente confirme una compra en nuestro sitio, enviaremos un despachador
+			para retirar tu producto al domicilio indicado en el formulario, donde debes cancelar el total
+			por el cual nos vendes tu producto, que es el 80% del precio publicado en nuestro sitio, para
+			luego ser despachado al domicilio del cliente.</li>
 	</ol>
+	<h4>¡&Eacute;xito con tus ventas!</h4>
 </div>
 <?php } ?>
